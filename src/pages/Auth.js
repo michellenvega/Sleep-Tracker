@@ -50,10 +50,8 @@ function Auth() {
   function login() {
     setLogins(true);
     setLoginStatus("");
-    Axios.post('https://sleep-trackers.herokuapp.com/login', {
-      headers: {
-       'Access-Control-Allow-Origin': '*'
-      }},{
+    Axios.post('https://sleep-trackers.herokuapp.com/login', 
+{
       email: emailLog, 
       pass: passLog })
       .then((res) => { 
@@ -63,6 +61,7 @@ function Auth() {
         setContext("true")
         getInfo(emailLog)
         }
+        res.header("Access-Control-Allow-Origin", "*");
       })
   }
 
