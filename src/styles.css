@@ -126,3 +126,11 @@ margin-bottom: 30rem;
  .center Button{
     margin-bottom: 3rem
  }
+
+ .homecontent {
+    display: grid;
+    margin-right: 20rem;
+    margin-left: 20rem;
+
+ }
+ 

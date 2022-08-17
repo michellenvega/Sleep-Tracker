@@ -108,7 +108,7 @@ function Entries() {
         )}
       </Table>     
       {     deleted&&  (
-       <Alert  classname="alerts" severity="success" maxWidth="sm">Selected entries have been deleted! Please refresh the page.</Alert>
+       <Alert  className="alerts" severity="success" maxWidth="sm">Selected entries have been deleted! Please refresh the page.</Alert>
        )
 } </div>
 }

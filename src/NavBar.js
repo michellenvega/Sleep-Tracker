@@ -27,7 +27,7 @@ function NavBar() {
   return (
     <nav className="nav">
       {/* site title */}
-      <Link to="/" className='site-title'>home page</Link>
+      <Link to="/" className='site-title'>Sleep Tracker</Link>
       {/* list of nav items */}
       <ul>
       {!access && 
