@@ -61,7 +61,7 @@ function Auth() {
         setContext("true")
         getInfo(emailLog)
         }
-        res.header("Access-Control-Allow-Origin", "*");
+       
       })
   }
 
