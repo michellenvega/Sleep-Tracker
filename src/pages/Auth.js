@@ -50,7 +50,7 @@ function Auth() {
   function login() {
     setLogins(true);
     setLoginStatus("");
-    Axios.post('login', 
+    Axios.post('/login', 
 {
       email: emailLog, 
       pass: passLog })
