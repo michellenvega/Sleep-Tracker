@@ -51,6 +51,7 @@ function Auth() {
     setLogins(true);
     setLoginStatus("");
     Axios.post('https://sleep-trackers.herokuapp.com/login', {
+      "Access-Control-Allow-Origin": "*",
       email: emailLog, 
       pass: passLog })
       .then((res) => { 
