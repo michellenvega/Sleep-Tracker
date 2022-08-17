@@ -50,7 +50,7 @@ function Auth() {
   function login() {
     setLogins(true);
     setLoginStatus("");
-    Axios.post('/login', {
+    Axios.post('https://sleep-trackers.herokuapp.com/login', {
       email: emailLog, 
       pass: passLog })
       .then((res) => { 
