@@ -2,7 +2,8 @@
   "name": "sleep-tracker",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "proxy": "https://sleep-trackers.herokuapp.com/",
+    "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
