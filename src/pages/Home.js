@@ -83,7 +83,9 @@ function Home() {
         <br></br>
         to contact me at michellenvega@ucla.edu. Thank you!
       </h4>
-
+      <p>Site status as of 08/17/2022: UP</p>
+      <br></br>
+      <p>Server status as of 08/17/2022: UP</p>
       </div>
     );
   }
